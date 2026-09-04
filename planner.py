@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, TimeoutError
 # 初始化主模型和备用模型
 def init_models(api_key):
     main_model = ChatOpenAI(
-        model="deepseek-chat",  # 主模型名称
+        model="deepseek-v4-flash",  # 主模型名称
         api_key=api_key,        # 主模型 API 密钥
         base_url="https://vip.apiyi.com/v1",  # 主模型 API 地址
         max_tokens=1024

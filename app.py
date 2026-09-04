@@ -30,7 +30,7 @@ if "history" not in st.session_state:
 
 # 初始化主模型
 MAIN_MODEL = ChatOpenAI(
-    model="deepseek-chat",  # 主模型名称
+    model="deepseek-v4-flash",  # 主模型名称
     api_key="sk-mcPCh2zIXjSTN53c23B73c9316D74e47A50eD42c52692a43",  # 主模型 API 密钥
     base_url="https://vip.apiyi.com/v1",  # 主模型 API 地址
     max_tokens=1024
